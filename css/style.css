@@ -45,6 +45,8 @@ body {
   position: relative;
   padding-bottom: 5px;
   text-transform: uppercase;
+  font-size: 38px;
+
 }
 
 .heading_container h2::before {
@@ -233,7 +235,8 @@ a:focus {
 
 .slider_section .detail-box h1,
 .slider_section .detail-box h2,
-.slider_section .detail-box h3 {
+.slider_section .detail-box h3,
+.slider_section .detail-box h4 {
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -250,9 +253,10 @@ a:focus {
 
 .slider_section .detail-box p {
   margin-top: 25px;
+  font-size: 20px;
 }
 
-.slider_section .detail-box a {
+.slider_section .detail-box .contact-head a {
   display: inline-block;
   padding: 8px 35px;
   background-color: transparent;
@@ -265,6 +269,7 @@ a:focus {
   transition: transform 0.3s, -webkit-transform 0.3s;
   text-transform: uppercase;
   margin-top: 35px;
+  text-decoration: none;
 }
 
 .slider_section .detail-box a:hover {
@@ -331,6 +336,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          margin-bottom: 10px;
 }
 
 .us_section .us_container .box .img-box img {
@@ -339,6 +345,8 @@ a:focus {
 
 .us_section .us_container .box .detail-box h5 {
   font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .heathy_section {
@@ -355,6 +363,7 @@ a:focus {
 
 .heathy_section p {
   margin-top: 35px;
+  font-size: 18px;
 }
 
 .heathy_section .btn-box {
@@ -365,6 +374,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 45px;
+  text-decoration: none;
 }
 
 .heathy_section .btn-box a {
@@ -477,6 +487,7 @@ a:focus {
   color: #000000;
   margin-top: 25px;
   padding: 12px;
+  border-radius: 15px;
 }
 
 .contact_section input::-webkit-input-placeholder {
@@ -505,8 +516,11 @@ a:focus {
   border: none;
   color: #ffffff;
   background: #ff2953;
-  margin: 45px 0 0 auto;
+  margin: 45px  auto;
   text-transform: uppercase;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
 }
 
 .info_section {
@@ -522,6 +536,7 @@ a:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          text-decoration: none;
 }
 
 .info_items .item {
