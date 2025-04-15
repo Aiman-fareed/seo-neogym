@@ -240,15 +240,18 @@ a:focus {
   text-transform: uppercase;
   font-weight: bold;
 }
+.slider_section .detail-box h3{
+  font-size: 48px;
+}
 
 .slider_section .detail-box h2 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .slider_section .detail-box h1 {
-  font-size: 3.5rem;
+  font-size: 40px;
   font-weight: bold;
-  letter-spacing: .5rem;
+  letter-spacing: .3rem;
 }
 
 .slider_section .detail-box p {
